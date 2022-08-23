@@ -190,7 +190,7 @@ const evenOddNumericValues = (arr) => {
   return  arr.filter(i => typeof(i) == 'number').map(
     j=> {if(j%2==0)
           return 'even';
-        return 'odd'
+        return 'odd';
     });
 };
 
