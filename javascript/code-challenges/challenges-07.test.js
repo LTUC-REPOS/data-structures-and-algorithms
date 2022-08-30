@@ -195,7 +195,6 @@ const removeEvenValues = (arr) => {
       counter ++;
       i--;
     }
-      
   }
   return arr;
 };
